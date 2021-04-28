@@ -12,6 +12,11 @@
         {% block javascripts %}
             {#{{ encore_entry_script_tags('app') }}#}
         {% endblock %}
+        <style>
+            form label, form input {
+                margin: 10px;
+            }
+        </style>
     </head>
     <body>
         {% block body %}{% endblock %}
