@@ -1,15 +1,2 @@
 /.idea/
-
-/apps/*
-!/apps/.gitkeep
-
-/keys/cj/*
-!/keys/cj/.gitkeep
-
-/keys/gnupg/*
-!/keys/gnupg/.gitkeep
-
-/keys/ssh/*
-!/keys/ssh/.gitkeep
-
 .env
