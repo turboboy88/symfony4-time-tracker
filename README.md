@@ -2,7 +2,7 @@ Simple time-tracking Symfony application test task
 
 To install:
 1) Install docker and docker-compose
-2) Configure your env values
+2) Configure your env variables
 3) Run 'docker-compose build', 'docker-compose up'
 4) Inside apps/symfony4-time-tracker run 'composer install'
 5) Run 'docker-compose exec php bash'
