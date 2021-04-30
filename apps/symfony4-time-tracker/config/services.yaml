@@ -16,10 +16,6 @@ services:
         resource: '../src/Controller/'
         tags: ['controller.service_arguments']
 
-    JMS\Serializer\Serializer: '@jms_serializer'
-    jms_serializer:
-        class: JMS\Serializer\Serializer
-
     admin.task:
         class: App\Admin\TaskAdmin
         arguments: [ ~, App\Entity\Task, ~ ]
